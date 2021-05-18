@@ -17,6 +17,6 @@ cc_library(
     hdrs = glob(_public_hdrs),
     deps = [
         ":parameter_internal",
-        "@boost//mp11",
+        "@boost//libs/mp11",
     ],
 )
